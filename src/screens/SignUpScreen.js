@@ -2,16 +2,7 @@ import React, { useState } from 'react';
 import { TouchableOpacity } from 'react-native';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import { useDispatch } from 'react-redux';
-
-import {
-  Input,
-  Card,
-  Button,
-  Text,
-  Overlay,
-  Icon,
-} from 'react-native-elements';
-
+import { Input, Card, Button, Text, Overlay, Icon } from 'react-native-elements';
 import { SIGNUP } from '../store/actions/types';
 
 const SignUpScreen = ({ navigation }) => {

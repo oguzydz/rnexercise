@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
-import { Card, Button, Icon, Text } from 'react-native-elements';
+import { Card, Button, Text } from 'react-native-elements';
 import { connect, useDispatch } from 'react-redux';
 import { SIGNOUT } from '../store/actions/types';
 

@@ -1,14 +1,8 @@
-import React, { useEffect, useState } from 'react';
-
-// Redux
-
-import { connect, useDispatch } from 'react-redux';
-
-// React Navigation
+import React from 'react';
+import { connect } from 'react-redux';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-// Screens
 import HomeScreen from '../screens/HomeScreen';
 import SignInScreen from '../screens/SignInScreen';
 import SignUpScreen from '../screens/SignUpScreen';

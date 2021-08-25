@@ -9,11 +9,6 @@ const persistConfig = {
   storage: AsyncStorage,
 };
 
-if (process.env.NODE_ENV === "development") {
-  // AsyncStorage.removeItem("persist:root");
-}
-
-
 const rootReducer = combineReducers({
   user: persistReducer(persistConfig, userReducer),
 });

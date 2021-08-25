@@ -2,17 +2,7 @@ import React, { useState } from 'react';
 import { View, TouchableOpacity } from 'react-native';
 import { useDispatch } from 'react-redux';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
-
-import {
-  Input,
-  Card,
-  Button,
-  Text,
-  Switch,
-  Overlay,
-  Icon,
-} from 'react-native-elements';
-
+import { Input, Card, Button, Text, Switch, Overlay, Icon } from 'react-native-elements';
 import { connect } from 'react-redux';
 import { SIGNIN } from '../store/actions/types';
 
