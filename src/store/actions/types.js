@@ -1,5 +1,6 @@
 // User Proccess
-const LOGIN = 'LOGIN';
-const LOGOUT = 'LOGOUT';
+const SIGNIN = 'SIGNIN';
+const SIGNUP = 'SIGNUP';
+const SIGNOUT = 'SIGNOUT';
 
-export {LOGIN, LOGOUT};
+export { SIGNIN, SIGNUP, SIGNOUT };

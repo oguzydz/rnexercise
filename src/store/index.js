@@ -9,8 +9,13 @@ const persistConfig = {
   storage: AsyncStorage,
 };
 
+if (process.env.NODE_ENV === "development") {
+  // AsyncStorage.removeItem("persist:root");
+}
+
+
 const rootReducer = combineReducers({
-  userReducer: persistReducer(persistConfig, userReducer),
+  user: persistReducer(persistConfig, userReducer),
 });
 
 let store = createStore(rootReducer);
